@@ -10,14 +10,14 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt-get update && apt-get install -y \
     libmicrohttpd-dev \
     libjansson-dev \
-	libssl-dev \
+    libssl-dev \
     libsofia-sip-ua-dev \
     libglib2.0-dev \
-	libopus-dev \
+    libopus-dev \
     libogg-dev \
     libcurl4-openssl-dev \
     liblua5.3-dev \
-	libconfig-dev \
+    libconfig-dev \
     pkg-config \
     libtool \
     automake \
